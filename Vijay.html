@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { background-color: #000000; margin: 0; padding: 10px; }
+        #ticket-detail-view { display: none; }
+    </style>
+</head>
+<body>
+
+    <div id="summary-view">
+        <div style="background-color: #000000; padding: 10px; text-align: center;">
+            <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 350px; background-color: #1c1c1e; border-radius: 20px; font-family: Arial, sans-serif; border-collapse: collapse; margin: 0 auto;">
+                <tr>
+                    <td style="padding: 20px;">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                                <td align="left" valign="top" style="padding-right: 10px;">
+                                    <div style="font-size: 15px; font-weight: bold; color: #ffffff; margin-bottom: 6px; line-height: 1.2;">
+                                        TATA IPL 2026 - Match 44- Chennai Super Kings vs Mumbai Indians
+                                    </div>
+                                    <div style="color: #8e8e93; font-size: 14px; margin-bottom: 4px;">02 May | 07:30 PM</div>
+                                    <div style="color: #8e8e93; font-size: 14px;">2 tickets</div>
+                                </td>
+                                <td width="80" valign="top" align="right">
+                                    <img src="https://i.ibb.co/yc9ztKXb/IMG-20260428-WA0003.jpg" width="80" height="110" style="border-radius: 12px; display: block; object-fit: cover; border: 0;">
+                                </td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top: 15px; border-top: 1px solid #333333;">
+                            <tr>
+                                <td style="padding-top: 15px;">
+                                    <div style="color: #8e8e93; font-size: 12px; margin-bottom: 5px; text-align: left;">Location</div>
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="middle">
+                                                <div style="text-decoration: none; font-size: 14px; font-weight: 500; color: #ffffff;">M.A. Chidambaram Stadium, Chennai</div>
+                                            </td>
+                                            <td align="right" width="24" valign="middle">
+                                                <div style="border: 1px solid #666; border-radius: 4px; width: 20px; height: 20px; text-align: center; line-height: 18px; color: #ffffff; font-size: 11px; display: inline-block;">&#10148;</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top: 25px;">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0" border="0" style="background-color: #072714; border-radius: 6px;">
+                                        <tr>
+                                            <td style="color: #4cd964; padding: 6px 14px; font-size: 14px; font-weight: bold;">Booked</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td align="right" valign="middle">
+                                    <a href="javascript:void(0);" onclick="openDetail()" style="color: #ffffff; font-size: 16px; font-weight: bold; text-decoration: none; display: inline-block;">View details &gt;</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="ticket-detail-view">
+        <div style="background-color: #0c0c0c; padding: 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 360px; background-color: #121212; border-radius: 20px; color: #ffffff; overflow: hidden; border: 1px solid #1a3c26;">
+                <tr>
+                    <td align="center" style="background-color: #1a3c26; padding: 25px 15px 15px 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="center" style="background-color: #4CAF50; color: #000000; width: 44px; height: 44px; border-radius: 22px; line-height: 44px; font-size: 22px; font-weight: bold;">&#10003;</td>
+                            </tr>
+                        </table>
+                        <div style="font-size: 1.1rem; font-weight: 600; color: #ffffff; margin-top: 12px; letter-spacing: 0.3px;">Booking confirmed</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background: linear-gradient(to bottom, #1a3c26 0%, #121212 100%); padding: 30px 15px 20px 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td width="75">
+                                    <img src="https://i.ibb.co/yc9ztKXb/IMG-20260428-WA0003.jpg" alt="Poster" width="70" height="95" style="border-radius: 8px; border: 1px solid #333; display: block; object-fit: cover;">
+                                </td>
+                                <td style="padding-left: 12px; vertical-align: middle;">
+                                    <div style="font-size: 0.90rem; font-weight: 700; line-height: 1.3; color: #ffffff; margin: 0;">TATA IPL 2026: Match 44</div>
+                                    <div style="font-size: 0.90rem; font-weight: 700; line-height: 1.3; color: #ffffff; margin: 2px 0;">Chennai Super Kings VS</div>
+                                    <div style="font-size: 0.90rem; font-weight: 700; line-height: 1.3; color: #ffffff; margin: 0;">Mumbai Indians</div>
+                                    <div style="color: #999; font-size: 0.60rem; margin-top: 5px; font-weight: 500;">M.A. Chidambaram Stadium, Chennai</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 5px 15px 15px 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #1e1e1e; border-radius: 15px; padding: 15px;">
+                            <tr>
+                                <td>
+                                    <div style="font-size: 0.7rem; color: #888; line-height: 1.5; margin-bottom: 12px; font-family: monospace;">
+                                        Booking ID: DMJ4480935676<br>
+                                        Booking code: NT5R7DM
+                                    </div>
+                                    <div style="border-top: 1px solid #333; padding: 12px 0; font-weight: 600; font-size: 0.8rem; color: #ffffff;">
+                                        Sat, 2 May | 7:30 PM onwards
+                                    </div>
+                                    <div style="border-top: 1px solid #333; padding: 12px 0;">
+                                        <div style="font-size: 0.9rem; font-weight: 700; color: #ffffff; margin-bottom: 2px;">2 x Phase 1 STAND E, LOWER</div>
+                                        <div style="font-size: 0.8rem; color: #bbb;">J-33, J-34</div>
+                                    </div>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 1px solid #333; padding: 12px 0;">
+                                        <tr>
+                                            <td width="30" valign="top">
+                                                <div style="border: 1px solid #888; border-radius: 3px; width: 18px; height: 11px; margin-top: 2px; position: relative;">
+                                                    <div style="background: #1e1e1e; width: 3px; height: 3px; border-radius: 50%; position: absolute; left: -2px; top: 3px;"></div>
+                                                    <div style="background: #1e1e1e; width: 3px; height: 3px; border-radius: 50%; position: absolute; right: -2px; top: 3px;"></div>
+                                                </div>
+                                            </td>
+                                            <td style="font-size: 0.8rem; color: #ffffff; font-weight: 500;">
+                                                <strong>M-Ticket:</strong> Show the QR at the gate for entry
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin: 20px 0 10px 0;">
+                                        <tr>
+                                            <td style="vertical-align: middle;"><div style="border-bottom: 1px solid #333; height: 1px;"></div></td>
+                                            <td width="100" align="center" style="font-size: 0.7rem; font-weight: 700; color: #888; letter-spacing: 2px; vertical-align: middle; padding: 0 5px;">M - TICKETS</td>
+                                            <td style="vertical-align: middle;"><div style="border-bottom: 1px solid #333; height: 1px;"></div></td>
+                                        </tr>
+                                    </table>
+                                    <div align="center" style="font-size: 0.75rem; color: #ffffff; margin-bottom: 20px; font-weight: 500;">Ticket 1 / 2</div>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 25px;">
+                                        <tr>
+                                            <td align="center">
+                                                <img src="https://i.ibb.co/Q3gPvCV5/IMG-20260429-WA0000.jpg" width="150" height="150" style="display: block; border-radius: 4px; border: 1px solid #333;">
+                                                <div style="color: #ffffff; font-weight: 700; font-size: 10px; padding: 12px 0; text-transform: uppercase; line-height: 1.4; letter-spacing: 0.5px;">
+                                                    QR CODE WILL BE GENERATED ON<br>
+                                                    02/05/26 AT 03:00 PM
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 1px solid #333; padding-top: 12px; font-size: 0.8rem; color: #999; line-height: 2;">
+                                        <tr>
+                                            <td>Order amount</td>
+                                            <td align="right">&#8377;3,174</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fees &amp; charges</td>
+                                            <td align="right">&#8377;826</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color: #ffffff; font-weight: 700; border-top: 1px dashed #444; padding-top: 8px; margin-top: 5px;">Grand total</td>
+                                            <td align="right" style="color: #ffffff; font-weight: 700; border-top: 1px dashed #444; padding-top: 8px; margin-top: 5px;">&#8377;4,000</td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 15px;">
+                                        <tr>
+                                            <td style="vertical-align: middle;"><div style="border-bottom: 1px solid #333; height: 1px;"></div></td>
+                                            <td width="60" align="center" style="font-size: 0.65rem; font-weight: 700; color: #888; letter-spacing: 1px; vertical-align: middle; padding: 0 5px;">VENUE</td>
+                                            <td style="vertical-align: middle;"><div style="border-bottom: 1px solid #333; height: 1px;"></div></td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 10px;">
+                                        <tr>
+                                            <td style="font-size: 0.55rem; color: #bbb; vertical-align: middle;">M.A. CHIDAMBARAM STADIUM, CHENNAI</td>
+                                            <td align="right" width="30">
+                                                <div style="border: 1px solid #666; border-radius: 4px; width: 22px; height: 22px; text-align: center; line-height: 20px; color: #ffffff; font-size: 12px; display: inline-block;">&#10148;</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0 15px 20px 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #1e1e1e; border-radius: 12px; padding: 12px;">
+                            <tr>
+                                <td style="font-size: 0.75rem; color: #ffffff; font-weight: 500;">
+                                    <span style="color: #ff4444; font-weight: bold; margin-right: 8px;">&#10006;</span> Tickets cancellation not allowed
+                                </td>
+                                <td align="right" style="color: #666; font-size: 14px;">&#10095;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="padding: 15px 0 25px 0;">
+                        <a href="javascript:void(0);" onclick="closeDetail()" style="color: #8e8e93; font-size: 12px; font-weight: 500; text-decoration: none; border: 1px solid #333; padding: 6px 20px; border-radius: 50px; display: inline-block;">Back</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function openDetail() {
+            document.getElementById('summary-view').style.display = 'none';
+            document.getElementById('ticket-detail-view').style.display = 'block';
+            window.scrollTo(0, 0);
+        }
+        function closeDetail() {
+            document.getElementById('ticket-detail-view').style.display = 'none';
+            document.getElementById('summary-view').style.display = 'block';
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>
